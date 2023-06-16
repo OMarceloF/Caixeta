@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 250px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: goldenrod;
+}
+
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    width: 100%;
+}
+
+.leftText {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.conPag {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.pagamento {
+    margin-top: 5rem;
+}
+
+h2 {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.pagamento h2 {
+    font-size: 3rem;
+}
+
+.endereco {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.endereco h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.conEndereco {
+    display: flex;
+    flex-direction: row;
+}
+
+.endRight {
+    width: 50%;
+    height: 600px;
+}
+
+.endRight img {
+    width: 100%;
+    height: 100%;
+}
+
+.endLeft {
+    width: 50%;
+    height: 600px;
+}
+
+.conPro {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.conPro img {
+    width: 600px;
+}
+
+.two {
+    width: 20%;
+}
+
+.propaganda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.propaganda h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+footer {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons a:hover {
+    color: goldenrod;
+    transition: 0.3s all ease-in-out;
+}
+
+.pagamento img {
+    height: 85%;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        width: 150px;
+    }
+    .endereco h2 {
+        font-size: 1rem;
+    }
+    .conPag {
+        flex-direction: column;
+    }
+    .conPro {
+        flex-direction: column;
+    }
+    .conPro img {
+        width: 100%;
+    }
+}
+
+
